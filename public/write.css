@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(255, 255, 255, 0.047);
+}
+.buttons{
+    max-width: 300px;
+    text-align: center;
+    margin: 20px auto;
+    border:0; outline:0;
+    padding: 1em;
+    border-radius:8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'MD개성체', sans-serif;
+    /* box-shadow(0 1px 1px rgba(black, 0.1)); */
+    resize: none;
+
+    color: white; 
+    background: #000000;
+    cursor: pointer;
+}
+.buttons:hover {
+    box-shadow: 0 1px 1px 1px rgb(170 170 170 / 60%);
+ }
+#writeMain{
+    /* width: 70%;
+    margin: 50px auto;
+    background-color: #000; */
+
+}
+#qq{
+    width: 80%;
+    margin: 0 auto;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    /* border: 1px solid; */
+    border-radius: 4px;
+    /* background-color: rgb(119, 40, 40); */
+}
+#diarySubject{
+    background: #f1f1f1;
+    border:0; outline:0;
+    border-radius:6px;
+
+    width: 70%;
+    height: 26px;
+}
+
+textarea{
+    background: #f1f1f1;
+    padding: 1em;
+
+    height: 126px;
+
+    border:0; outline:0;
+    padding: 1em;
+    border-radius:8px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Merriweather', sans-serif;
+    box-shadow: 0 1px 1px rgba(black, 0.1);
+    resize: none;
+
+}
+#input-message:focus{
+    box-shadow: 0 0px 2px #000000;
+}
