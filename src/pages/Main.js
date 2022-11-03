@@ -10,13 +10,13 @@ function Main() {
         <nav>
             <Link to="/">home</Link>
             <Link to="/Page1">Page1</Link>
-            {/* <Link to="/Page2">Page2</Link> */}
+            <Link to="/Page2">Page2</Link>
 
         </nav>
         <Routes>
             <Route path="/" element={<input></input>}/>
             <Route path="/Page1" element={<Page1/>}/>
-            {/* <Route path="/Page2" element={<Page2/>}/> */}
+            <Route path="/Page2" element={<Page2/>}/>
 
         </Routes>
 
