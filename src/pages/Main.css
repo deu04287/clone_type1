@@ -1,0 +1,67 @@
+/* *기본 설정*/
+* { 
+    font-family: Roboto,Arial,sans-serif;
+    color: #616161;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*최상단*/
+#mainHeader{
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+
+}
+#mainHeaderin{
+
+    height: 77px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+
+    max-width: 938px;
+    margin: auto;
+    background: #fff;
+}
+
+/* *최상단 이름 누르면 메인화면으로 이동 css */
+#mainReturn {
+    margin-left: 0px;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    text-decoration: none;
+
+    font: 500 20px/32px Roboto,Helvetica Neue,sans-serif;
+    letter-spacing: normal;
+    margin: 0;
+}
+
+#mainBody{
+    
+}
+
+#mainBodyin{
+    display: flex;
+    justify-content: center; /*새로 가운데 정렬*/
+
+    margin: auto; /*가로 가운데 정렬*/
+
+    align-items: center; /*div 안에 내용 가운데 정렬*/
+
+    width: 400px;
+    height: 700px;
+    border: 1px solid;
+}
+/**
+    text-decoration: none solid rgb(97, 97, 97); 
+    하이퍼링크처럼 안보이게 해줌
+*/
+
+/** 스크롤바 안보이게 */
+/* ::-webkit-scrollbar { 
+    width: 0px;
+    background: transparent;
+} */
