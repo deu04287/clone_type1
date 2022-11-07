@@ -55,6 +55,13 @@
     height: 700px;
     border: 1px solid;
 }
+
+button{
+    /*버튼 배경 없애기*/
+    /* border: 0;
+    outline: 0;
+    background-color: #fff; */
+}
 /**
     text-decoration: none solid rgb(97, 97, 97); 
     하이퍼링크처럼 안보이게 해줌

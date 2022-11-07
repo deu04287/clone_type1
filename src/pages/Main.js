@@ -6,6 +6,8 @@ import Page2 from './Page2';
 import './Main.css';
 import searchIcon from '../images/search.png';
 function Main() {
+    var w = window.innerWidth; //화면 크기 저장
+    var h = window.innerHeight;
   return (
       <div>
           <div id='mainHeader'>
